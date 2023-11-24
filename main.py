@@ -123,7 +123,7 @@ class Game:
       while player_hand.get_value() < 21 and choice not in ['s', 'stand']:
         choice = input('Please choose "Hit" or "Stand": ').lower() # Convert response to lower
         print()
-        while choice not in ['h', 's', 'hit' or 'stand']:
+        while choice not in ['h', 's', 'hit', 'stand']:
           choice = input('Please enter "Hit" or "Stand" or h/s ').lower()
           print()
         if choice in ['h', 'hit']:
