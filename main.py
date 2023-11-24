@@ -111,7 +111,7 @@ class Game:
 
       print()
       print('*' * 30) # Set Divider
-      print(f'Game {game_number} or {games_to_play}')
+      print(f'Game {game_number} of {games_to_play}')
       print('*' * 30) # Set Divider
       player_hand.display()
       dealer_hand.display()
